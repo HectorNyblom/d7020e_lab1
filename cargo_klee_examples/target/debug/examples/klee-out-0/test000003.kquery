@@ -1,0 +1,9 @@
+array arr[8] : w32 -> w8 = symbolic
+array i[8] : w32 -> w8 = symbolic
+(query [(Ult 0
+              N0:(ReadLSB w64 0 i))
+         (Ult 1 N0)
+         (Ult 255
+              (Add w16 (ZExt w16 (Extract w8 0 (ZExt w16 (Read w8 0 arr))))
+                       (ZExt w16 (Read w8 1 arr))))]
+        false)

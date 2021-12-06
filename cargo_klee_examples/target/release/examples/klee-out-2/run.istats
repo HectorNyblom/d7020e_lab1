@@ -1,0 +1,50 @@
+version: 1
+creator: klee
+pid: 28910
+cmd: /home/hector/Documents/GitHub/d7020e_klee/cargo_klee_examples/target/release/examples/array-ed2083d00b65a926.ll
+
+
+positions: instr line
+event: Icov : CoveredInstructions
+event: Forks : Forks
+event: Ireal : InstructionRealTimes
+event: Itime : InstructionTimes
+event: I : Instructions
+event: UCdist : MinDistToUncovered
+event: Rtime : ResolveTime
+event: States : States
+event: Iuncov : UncoveredInstructions
+event: Q : Queries
+event: Qiv : QueriesInvalid
+event: Qv : QueriesValid
+event: Qtime : QueryTime
+events: Icov Forks Ireal Itime I UCdist Rtime States Iuncov Q Qiv Qv Qtime 
+ob=assembly.ll
+fl=examples/array.rs
+fn=main
+14 23 1 0 0 0 1 0 0 0 0 0 0 0 0 
+15 23 1 0 0 0 1 0 0 0 0 0 0 0 0 
+16 24 1 0 0 0 1 0 0 0 0 0 0 0 0 
+17 24 1 0 0 0 1 0 0 0 0 0 0 0 0 
+18 24 1 0 0 0 1 0 0 0 0 0 0 0 0 
+19 25 1 0 0 0 1 0 0 0 0 0 0 0 0 
+20 25 1 0 0 0 1 0 0 0 0 0 0 0 0 
+21 25 1 0 0 0 1 0 0 0 0 0 0 0 0 
+fl=/home/hector/.cargo/git/checkouts/klee-sys-7ee2aa8a1a6bbc46/9f462cc/src/lib_klee_analysis.rs
+22 0 1 0 0 0 1 0 0 0 0 0 0 0 0 
+23 0 1 0 0 0 1 0 0 0 0 0 0 0 0 
+24 0 1 0 0 0 1 0 0 0 0 0 0 0 0 
+fl=examples/array.rs
+25 24 1 0 0 0 1 0 0 0 0 0 0 0 0 
+fl=/home/hector/.cargo/git/checkouts/klee-sys-7ee2aa8a1a6bbc46/9f462cc/src/lib_klee_analysis.rs
+26 19 1 0 0 0 1 0 0 0 0 0 0 0 0 
+fl=examples/array.rs
+27 25 1 0 0 0 1 0 0 0 0 0 0 0 0 
+fl=/home/hector/.cargo/git/checkouts/klee-sys-7ee2aa8a1a6bbc46/9f462cc/src/lib_klee_analysis.rs
+28 0 1 0 0 0 1 0 0 0 0 0 0 0 0 
+29 0 1 0 0 0 1 0 0 0 0 0 0 0 0 
+30 0 1 0 0 0 1 0 0 0 0 0 0 0 0 
+31 19 1 0 0 0 1 0 0 0 0 0 0 0 0 
+fl=examples/array.rs
+32 25 1 0 0 0 1 0 0 0 0 0 0 0 0 
+33 29 1 0 0 0 1 0 0 0 0 0 0 0 0 

@@ -1,0 +1,23 @@
+klee --disable-verify /home/hector/Documents/GitHub/d7020e_klee/cargo_klee_examples/target/debug/examples/array-8aae9cf9b7331c2e.ll
+PID: 28785
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2021-12-06 21:13:45
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2021-12-06 21:13:45
+Elapsed: 00:00:00
+KLEE: done: explored paths = 17
+KLEE: done: avg. constructs per query = 33
+KLEE: done: total queries = 18
+KLEE: done: valid queries = 1
+KLEE: done: invalid queries = 17
+KLEE: done: query cex = 18
+
+KLEE: done: total instructions = 4595
+KLEE: done: completed paths = 10
+KLEE: done: partially completed paths = 7
+KLEE: done: generated tests = 11
