@@ -116,7 +116,7 @@ mod ll {
 // Figure out to run `ktest-tool` on the generated test cases.
 // (Hint, it is just a matter of paths.)
 //
-// It's under target/debug/examples
+// ktest-tool target/debug/examples/klee-last/*.ktest
 //
 // C) Replaying your test cases.
 //

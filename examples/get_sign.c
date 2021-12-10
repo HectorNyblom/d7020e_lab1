@@ -46,15 +46,9 @@ int main()
 //
 // > ls klee-last/
 //
-// KLEE: output directory is "/home/hector/Documents/GitHub/d7020e_klee/examples/klee-out-0"
-// KLEE: Using Z3 solver backend
-// KLEE: ERROR: (location information missing) divide by zero
-// KLEE: NOTE: now ignoring this error at this location
-
-// KLEE: done: total instructions = 46
-// KLEE: done: completed paths = 3
-// KLEE: done: partially completed paths = 1
-// KLEE: done: generated tests = 4
+// assembly.ll   run.istats          test000001.kquery  test000003.ktest
+// info          run.stats           test000001.ktest   test000004.ktest
+// messages.txt  test000001.div.err  test000002.ktest   warnings.txt
 
 //
 // C) Inspecting the generated test cases
